@@ -1,0 +1,27 @@
+{
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "printWidth": 120,
+        "proseWrap": "never",
+        "htmlWhitespaceSensitivity": "ignore",
+        "vueIndentScriptAndStyle": false
+      }
+    },
+    {
+      "files": "*.ts",
+      "options": {
+        "semi": true,
+        "singleQuote": true,
+        "tabWidth": 2,
+        "trailingComma": "es5"
+      }
+    }
+  ],
+  "endOfLine": "lf",
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5"
+}
