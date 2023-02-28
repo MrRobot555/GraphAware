@@ -276,7 +276,7 @@ export default class ExampleComponent extends Vue {
         }
         if (tableRow.kids) {
           for (const key in tableRow.kids) {
-            if (tableRow.kids.hasOwnProperty(key)) {
+            if (Object.prototype.hasOwnProperty.call(tableRow.kids, key)) {
               const kid = tableRow.kids[key];
               if (kid.records) {
                 this.deleteTableRowsByIds([id], kid.records);
